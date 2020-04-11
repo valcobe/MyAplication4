@@ -10,21 +10,58 @@
 	    android:gravity="center" 
 	    android:textSize="20sp" 
 	    android:padding="20dp"/>
-	<LinearLayout  
-		android:layout_width="match_parent" 
+
+	<LinearLayout
+		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:gravity="center">
-		<Button 
-			android:text="Inicio" 
-			android:id="@+id/btnInicio" 
-			android:layout_width="wrap_content" 
-			android:layout_height="wrap_content">
-		</Button>
-		<Button 
-			android:layout_width="wrap_content" 
+
+		<Button
+			android:id="@+id/btnInicio"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="Detener" 
-			android:id="@+id/btnFin">
-		</Button>		
+			android:text="@string/tono"></Button>
+
+		<Button
+			android:id="@+id/btnCancion"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="0"
+			android:text="@string/cancion" />
 	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/btnFin"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Detener"></Button>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="0"
+			android:text="@string/audio" />
+
+		<Button
+			android:id="@+id/button2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="0"
+			android:text="@string/rep" />
+	</LinearLayout>
+
 </LinearLayout>
