@@ -2,11 +2,18 @@
 <resources>
     <string name="hello">Hello World, Main!</string>
     <string name="app_name">ManejoServicios</string>
-    <string name="iniserv">Servicio Iniciado</string>
+    <string name="iniserv">Servicio Sonido Iniciado</string>
+    <string name="iniserv2">Servicio Canción Iniciado</string>
     <string name="creaserv">Servicio Creado</string>
     <string name="finaserv">Servicio Finalizado</string>
     <string name="cancion">Reproducir Cancion </string>
     <string name="tono">Reproducir Sonido </string>
     <string name="audio">Reproducir Uri </string>
     <string name="rep">Seleccionar Audio </string>
+    <string name="mess">mess </string>
+    <string name="select">Seleccionado Sonido </string>
+    <string name="selectSonido">Iniciar Sonido </string>
+    <string name="select2">Seleccionado Canción </string>
+    <string name="selectCancion"> Iniciar Canción</string>
+    <string name="select3">Seleccionado Detener</string>
 </resources>
