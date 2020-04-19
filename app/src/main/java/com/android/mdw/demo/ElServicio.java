@@ -37,7 +37,7 @@ public class ElServicio extends Service {
 	@Override
 	public int onStartCommand(Intent intent, int flags, int startid) {
 		Toast.makeText(this, R.string.iniserv, Toast.LENGTH_LONG).show();
-		
+
 		Bundle data = intent.getExtras();
 		String so = data.getString(getString(R.string.mess));
 
