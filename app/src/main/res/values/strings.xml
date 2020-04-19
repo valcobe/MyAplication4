@@ -4,16 +4,24 @@
     <string name="app_name">ManejoServicios</string>
     <string name="iniserv">Servicio Sonido Iniciado</string>
     <string name="iniserv2">Servicio Canción Iniciado</string>
+    <string name="iniserv3">Servicio Canción Iniciado via URI</string>
     <string name="creaserv">Servicio Creado</string>
     <string name="finaserv">Servicio Finalizado</string>
     <string name="cancion">Reproducir Cancion </string>
     <string name="tono">Reproducir Sonido </string>
-    <string name="audio">Reproducir Uri </string>
-    <string name="rep">Seleccionar Audio </string>
+    <string name="audio">Seleccionar audio </string>
+    <string name="rep">Reproducir URI </string>
     <string name="mess">mess </string>
     <string name="select">Seleccionado Sonido </string>
     <string name="selectSonido">Iniciar Sonido </string>
     <string name="select2">Seleccionado Canción </string>
     <string name="selectCancion"> Iniciar Canción</string>
     <string name="select3">Seleccionado Detener</string>
+    <string name="selectDetencion">Detención Reproducción </string>
+    <string name="BcasMessSon">Intent recibido ElReceptor - Inicio reproducción Sonido </string>
+    <string name="BcasMessCan">Intent recibido ElReceptor - Inicio reproducción Canción </string>
+    <string name="BcasMessDet">Intent recibido ElReceptor - Detención reproducción </string>
+    <string name="BcasMessCan1">Intent recibido ElReceptor - EVENTO DEL SISTEMA-ON </string>
+    <string name="BcasMessDet1">Intent recibido ElReceptor - EVENTO DEL SISTEMA-OFF </string>
+    <string name="messAudio">Iniciar Canción via URI</string>
 </resources>
