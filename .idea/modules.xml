@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ManejoServicios.iml" filepath="$PROJECT_DIR$/ManejoServicios.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyAplication4.iml" filepath="$PROJECT_DIR$/MyAplication4.iml" group="MyAplication4" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="MyAplication4/app" />
     </modules>
