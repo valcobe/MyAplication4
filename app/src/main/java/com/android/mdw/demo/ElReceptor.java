@@ -12,7 +12,7 @@ public class ElReceptor extends BroadcastReceiver {
         intent.setClass(context, ElServicio.class);
 
         if (intent.getAction() == null) {
-            //APARTADO B
+
             Bundle data = intent.getExtras();
             String so = data.getString(context.getString(R.string.mess));
 
@@ -25,18 +25,6 @@ public class ElReceptor extends BroadcastReceiver {
             } else if (so.equals(context.getString(R.string.selectDetencion))) {
                 Toast.makeText(context, R.string.BcasMessDet, Toast.LENGTH_LONG).show();
                 context.stopService(intent);
-            }
-        } else {
-            //APARTADO C
-            if (intent.getAction().equals("android.intent.action.HEADSET_PLUG")) {
-                if (intent.getIntExtra("state", 0) == 1) {
-                    Toast.makeText(context, R.string.BcasMessCan1, Toast.LENGTH_LONG).show();
-                    intent.putExtra(context.getString(R.string.mess), context.getString(R.string.selectCancion));
-                    context.startService(intent);
-                } else {
-                    Toast.makeText(context, R.string.BcasMessDet1, Toast.LENGTH_LONG).show();
-                    context.stopService(intent);
-                }
             }
         }
     }

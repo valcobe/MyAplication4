@@ -33,16 +33,7 @@ public class ElServicio extends Service {
 		player1.setLooping(true);
 	}
 
-	@Override
-	public void onDestroy() {
-		Toast.makeText(this, R.string.finaserv, Toast.LENGTH_LONG).show();
-		player.stop();
-		player1.stop();
-		try {
-			player2.stop();
-		}catch (Exception e){}
-	}
-	
+
 	@Override
 	public int onStartCommand(Intent intent, int flags, int startid) {
 		Toast.makeText(this, R.string.iniserv, Toast.LENGTH_LONG).show();
@@ -56,7 +47,7 @@ public class ElServicio extends Service {
 			player1.start();
 
 		}else if (so.equals(getString(R.string.messAudio))){
-			//OPTATIVO D I E
+
 			Toast.makeText(this, R.string.iniserv3, Toast.LENGTH_LONG).show();
 
 			try{
@@ -71,6 +62,16 @@ public class ElServicio extends Service {
 			player2.start();
 		}
 		return startid;
-	}	
+	}
+
+	@Override
+	public void onDestroy() {
+		Toast.makeText(this, R.string.finaserv, Toast.LENGTH_LONG).show();
+		player.stop();
+		player1.stop();
+		try {
+			player2.stop();
+		}catch (Exception e){}
+	}
 
 }
